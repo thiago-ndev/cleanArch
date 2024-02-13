@@ -1,0 +1,8 @@
+.__pycache__/
+.idea
+.idea/workspace.xml
+/env
+.idea/
+.pytest_cache/
+staticfiles
+.python-version
