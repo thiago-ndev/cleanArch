@@ -1,4 +1,4 @@
 {
   "python.linting.enabled": true,
-  "python.linting.pylintEnable": true
+  "python.linting.pylintEnabled": true
 }
