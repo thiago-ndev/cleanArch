@@ -1,14 +1,5 @@
 [MAIN]
 
-disable =
-    C0116, # TIRA OBRIGACAO DA DOCSTRING
-    E0015, # OPÇÃO NÃO RECONHECIDA
-    C0114, # DOCSTRING DO MÓDULO FALTA
-    W0703, # CAPTURA DE EXCEÇÃO MUITO GERAL Exceção
-    C0209, # CONSIDERE USAR F-STRING
-    C0231, # MÚLTIPLAS DECLARAÇÕES
-    W0221, # ARGUMENTOS DIFERENTES
-    R0801, # CÓDIGO DUPLICADO
 
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
@@ -441,7 +432,15 @@ disable=raw-checker-failed,
         deprecated-pragma,
         use-symbolic-message-instead,
         use-implicit-booleaness-not-comparison-to-string,
-        use-implicit-booleaness-not-comparison-to-zero
+        use-implicit-booleaness-not-comparison-to-zero,
+        C0116,                                                  # remove a obrigatoriedade da docstring
+        E0015,                                                  # opção não reconhecida
+        C0114,                                                  # docstring do módulo falta
+        W0703,                                                  # captura de exceção muito geral Exceção
+        C0209,                                                  # considera usar f-string
+        C0321,                                                  # múltiplas declarações
+        W0221,                                                  # argumentos diferentes
+        R0801,                                                  # código duplicado
 
 # Enable the message, report, category or checker with the given id(s). You can
 # either give multiple identifier separated by comma (,) or put this option
