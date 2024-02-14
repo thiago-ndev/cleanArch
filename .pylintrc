@@ -441,6 +441,8 @@ disable=raw-checker-failed,
         C0321,                                                  # múltiplas declarações
         W0221,                                                  # argumentos diferentes
         R0801,                                                  # código duplicado
+        C0115,                                                  # docstring de classes
+        R0903,                                                  # lançamento de erros
 
 # Enable the message, report, category or checker with the given id(s). You can
 # either give multiple identifier separated by comma (,) or put this option
